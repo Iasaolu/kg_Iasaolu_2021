@@ -1,3 +1,6 @@
+const user_input = process.argv.slice(2);
+digitsToWords(user_input);
+
 function digitsToWords(arr){
     let answer = "";
     let words=["Zero","One","Two","Three","Four","Five","Six","Seven","Eight","Nine"];
